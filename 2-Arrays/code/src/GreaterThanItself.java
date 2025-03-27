@@ -8,15 +8,15 @@ public class GreaterThanItself {
     }
     public static int countGreater(int[] arr){
         int max = Integer.MIN_VALUE;
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] > max){
-                max = arr[i];
+        for (int j : arr) {
+            if (j > max) {
+                max = j;
             }
         }
 
         int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if(arr[i] == max){
+        for (int j : arr) {
+            if (j == max) {
                 count++;
             }
         }
