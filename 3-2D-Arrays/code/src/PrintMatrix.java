@@ -1,7 +1,7 @@
 public class PrintMatrix {
     public static void main(String[] args) {
         // Print the given mat[n][m] row wise
-        int[][] arr = new int[][]{
+        int[][] arr = {
                 {25, 38, 65, 96},
                 {1, 2, 3, 4},
                 {44, 45, 55, 54},
